@@ -4,7 +4,7 @@ export const mockContacts: Contact[] = [
   {
     id: '1',
     name: 'Sarah Johnson',
-    avatar: '/images/profile1.jpeg',
+    avatar: '/image/profile1.jpeg',
     lastMessage: 'Hey, how are you?',
     unreadCount: 2,
     online: true,
@@ -12,7 +12,7 @@ export const mockContacts: Contact[] = [
   {
     id: '2',
     name: 'Mike Chen',
-    avatar: '/images/profile2.jpeg',
+    avatar: '/image/profile2.jpeg',
     lastMessage: 'Thanks for the update!',
     unreadCount: 0,
     online: true,
@@ -20,7 +20,7 @@ export const mockContacts: Contact[] = [
   {
     id: '3',
     name: 'Emma Davis',
-    avatar: '/images/profile3.jpeg',
+    avatar: '/image/profile3.jpeg',
     lastMessage: 'See you tomorrow',
     unreadCount: 1, 
     online: false,
