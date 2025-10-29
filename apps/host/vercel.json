@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "env": {
+    "NODE_ENV": "staging",
+    "CHAT_STAGING_URL": "https://chat-staging-one.vercel.app/remoteEntry.js",
+    "EMAIL_STAGING_URL": "https://email-staging.vercel.app/remoteEntry.js"
+  }
+}
