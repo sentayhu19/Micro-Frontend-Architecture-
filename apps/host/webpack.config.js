@@ -50,24 +50,17 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'host',
-      remotes: {
-        chat: `chat@${getEnvValue(
-          process.env.CHAT_DEV_URL,
-          process.env.CHAT_STAGING_URL,
-          process.env.CHAT_PROD_URL
-        )}`,
-        email: `email@${getEnvValue(
-          process.env.EMAIL_DEV_URL,
-          process.env.EMAIL_STAGING_URL,
-          process.env.EMAIL_PROD_URL
-        )}`,
-      },
-      shared: {
-        react: { singleton: true, requiredVersion: '^18.2.0' },
-        'react-dom': { singleton: true, requiredVersion: '^18.2.0' },
-      },
-    }),
+  name: 'host',
+  remotes: {
+    chat: `chat@${process.env.CHAT_STAGING_URL}`,
+    email: `email@${process.env.EMAIL_STAGING_URL}`,
+  },
+  shared: {
+    react: { singleton: true, requiredVersion: '^18.2.0' },
+    'react-dom': { singleton: true, requiredVersion: '^18.2.0' },
+  },
+}),
+,
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
