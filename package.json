@@ -1,0 +1,22 @@
+{
+  "name": "micro-frontend-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd apps/host && npm install && cd ../chat && npm install && cd ../email && npm install",
+    "dev": "concurrently \"npm run dev:host\" \"npm run dev:chat\" \"npm run dev:email\"",
+    "dev:host": "cd apps/host && npm run dev",
+    "dev:chat": "cd apps/chat && npm run dev",
+    "dev:email": "cd apps/email && npm run dev",
+    "build": "npm run build:chat && npm run build:email && npm run build:host",
+    "build:host": "cd apps/host && npm run build",
+    "build:chat": "cd apps/chat && npm run build",
+    "build:email": "cd apps/email && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
