@@ -13,7 +13,12 @@ module.exports = {
     },
   },
   output: {
-    publicPath: 'http://localhost:3001/',
+    // publicPath: 'http://localhost:3001/',
+    // path: path.resolve(__dirname, 'dist'),
+    // clean: true,
+    publicPath: isProduction
+      ? 'auto' 
+      : 'http://localhost:3001/',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
