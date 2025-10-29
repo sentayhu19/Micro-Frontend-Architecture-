@@ -4,15 +4,15 @@ export const mockContacts: Contact[] = [
   {
     id: '1',
     name: 'Sarah Johnson',
-    avatar: '/image/profile1.jpeg',
+    avatar: 'https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170',
     lastMessage: 'Hey, how are you?',
     unreadCount: 2,
     online: true,
   },
   {
     id: '2',
-    name: 'Mike Chen',
-    avatar: '/image/profile2.jpeg',
+    name: 'Sentayhu Berhanu',
+    avatar: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1931',
     lastMessage: 'Thanks for the update!',
     unreadCount: 0,
     online: true,
@@ -20,7 +20,7 @@ export const mockContacts: Contact[] = [
   {
     id: '3',
     name: 'Emma Davis',
-    avatar: '/image/profile3.jpeg',
+    avatar: 'https://plus.unsplash.com/premium_photo-1689977807477-a579eda91fa2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070',
     lastMessage: 'See you tomorrow',
     unreadCount: 1, 
     online: false,
@@ -28,7 +28,7 @@ export const mockContacts: Contact[] = [
   {
     id: '4',
     name: 'Alex Rodriguez',
-    avatar: '/images/profile4.jpeg',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170',
     lastMessage: 'Great work on the project',
     unreadCount: 0,
     online: true,
