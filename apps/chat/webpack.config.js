@@ -16,9 +16,8 @@ module.exports = {
     // publicPath: 'http://localhost:3001/',
     // path: path.resolve(__dirname, 'dist'),
     // clean: true,
-    publicPath: isProduction
-      ? 'auto' 
-      : 'http://localhost:3001/',
+    publicPath: 'auto',
+      
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
