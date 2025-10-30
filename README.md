@@ -393,14 +393,9 @@ The architecture supports easy addition of new micro-frontends:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
 ## 🙋 Support
 
 For questions or issues, please open an issue in the GitHub repository.
 
----
-
-**Built with ❤️ for Bluebash Assignment**
